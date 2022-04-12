@@ -30,4 +30,4 @@ INSERT INTO `shops` ( `store`, `item`, `price`) VALUES
 ('ExtraItemsShop', 'component_scope_holo', 300),
 ('ExtraItemsShop', 'component_grip', 200),
 ('ExtraItemsShop', 'component_barrel_heavy', 1000),
-('ExtraItemsShop', 'component_luxary_finish', 90000)
+('ExtraItemsShop', 'component_luxary_finish', 90000);
