@@ -1,0 +1,33 @@
+INSERT INTO `items` (`name`, `label`, `limit`, `rare`, `can_remove`) VALUES
+('component_barrel_heavy', 'Heavy Barrel', 8, 0, 0, 1),
+('component_clip_box', 'Carbine Rifle Drum Clip', 20, 0, 0, 1),
+('component_clip_drum', 'Drum Clip', 20, 0, 0, 1),
+('component_clip_extended', 'Extended Clip', 10, 0, 0, 1),
+('component_compensator', 'Compensator / Muzzle Brake', 5, 0, 0, 1),
+('component_flashlight', 'Weapon Flashlight', 8, 0, 0, 1),
+('component_grip', 'Grip', 5, 0, 0, 1),
+('component_ironsights', 'ironsights', 5, 0, 0, 1),
+('component_luxary_finish', 'Luxury Finsih', 25, 0, 0, 1),
+('component_scope', 'scope', 5, 0, 0, 1),
+('component_scope_advanced', 'Advanced Scope', 8, 0, 0, 1),
+('component_scope_holo', 'Holographic Sight', 6, 0, 0, 1),
+('component_scope_night', 'Night Vision Scope', 10, 0, 0, 1),
+('component_scope_thermal', 'Thermal Scope', 10, 0, 0, 1),
+('component_suppressor', 'Suppressor', 5, 0, 0, 1);
+
+INSERT INTO `shops` ( `store`, `item`, `price`) VALUES
+('ExtraItemsShop', 'component_clip_extended', 500),
+('ExtraItemsShop', 'component_clip_drum', 10000),
+('ExtraItemsShop', 'component_clip_box', 10000),
+('ExtraItemsShop', 'component_suppressor', 1000),
+('ExtraItemsShop', 'component_compensator', 1000),
+('ExtraItemsShop', 'component_flashlight', 100),
+('ExtraItemsShop', 'component_ironsights', 50),
+('ExtraItemsShop', 'component_scope', 250),
+('ExtraItemsShop', 'component_scope_advanced', 500),
+('ExtraItemsShop', 'component_scope_thermal', 1500),
+('ExtraItemsShop', 'component_scope_night', 2500),
+('ExtraItemsShop', 'component_scope_holo', 300),
+('ExtraItemsShop', 'component_grip', 200),
+('ExtraItemsShop', 'component_barrel_heavy', 1000),
+('ExtraItemsShop', 'component_luxary_finish', 90000)
